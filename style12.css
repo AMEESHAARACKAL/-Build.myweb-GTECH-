@@ -1,0 +1,33 @@
+.parent
+{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;    
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+    justify-content: baseline;
+    padding-left: 20px;
+
+}

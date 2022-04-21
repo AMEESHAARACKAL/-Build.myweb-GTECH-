@@ -1,0 +1,35 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.lorem{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ align-self: center;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.603);
+    margin: 10px;
+    width: 750px;
+}
+.circle{
+      height: 30px;    
+      width: 30px;
+      border-radius: 50%;
+      background-color: #F3F3F3;
+      border: solid black 0.5px;
+      display: inline-block;
+      margin: 4px;
+      margin-left: 15px;
+}
+.text
+{
+    padding: top 5px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
